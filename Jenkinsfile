@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Guru-Raj-Patil/Devops-14.git'
+                git branch: 'main', url: 'https://github.com/Guru-Raj-Patil/Devops-14.git'
             }
         }
 
